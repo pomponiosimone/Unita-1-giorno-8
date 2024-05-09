@@ -153,16 +153,3 @@ console.log(cutString("CIAO"))
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-console.log("----------------------decimo esercizio--------------------------")
-
-function giveMeRandom(n)
-{
-    let NuovoArray= [],
-    {for (let i = 0, i < n , i++) {
-
-    
- let NuovoArray(Math.floor(Math.random() *11) )
-NuovoArray.push(NuovoArray)
-    return NuovoArray
-}}
-console.log(giveMeRandom(1))
