@@ -143,11 +143,26 @@ console.log(upperFirst('professore di nome Matteo'))
 console.log("----------------------nono esercizio--------------------------")
 
 function cutString(stringa)
-{primoCarattere=
-
+{   primoCarattere = stringa.slice(1) && stringa.slice(-1)
+return NuovaStringa = primoCarattere 
 }
+console.log(cutString("CIAO"))
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+console.log("----------------------decimo esercizio--------------------------")
+
+function giveMeRandom(n)
+{
+    let NuovoArray= [],
+    {for (let i = 0, i < n , i++) {
+
+    
+ let NuovoArray(Math.floor(Math.random() *11) )
+NuovoArray.push(NuovoArray)
+    return NuovoArray
+}}
+console.log(giveMeRandom(1))
